@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\bloom">
+      <UniqueIdentifier>{e3e278d4-7f6d-4d80-b22c-ae14f64ad466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bloom">
+      <UniqueIdentifier>{97ddfbfc-eb7f-40e3-9a32-79ca3f94b92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bloom">
+      <UniqueIdentifier>{c22bfe5a-f26f-4036-823b-22fe36134d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Geometry">
+      <UniqueIdentifier>{d19f110f-60e4-4143-8bf2-07c63a25c489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{61c9fde1-5e93-4fe0-a882-3138ede6e8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{a1c7d2f5-3917-490a-9eb5-4ec199565c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadows">
+      <UniqueIdentifier>{c2d32e50-3304-4c95-8f87-dc558020ce78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadows">
+      <UniqueIdentifier>{0a99aa0f-4e6f-454c-99b1-346e298b78df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shadows">
+      <UniqueIdentifier>{084b0746-bd70-4fa8-a2db-773598e83cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{88747d84-5502-46c8-a808-a36fbfda51ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{bcbb1ec2-96d1-4ded-9a87-e0da14466767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bloomShader.cpp">
+      <Filter>Source Files\bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="horizontalBlurShader.cpp">
+      <Filter>Source Files\bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="brightnessShader.cpp">
+      <Filter>Source Files\bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="verticalBlurShader.cpp">
+      <Filter>Source Files\bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="textureShader.cpp">
+      <Filter>Source Files\bloom</Filter>
+    </ClCompile>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoonShader.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="OceanwaveShader.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="BeachShader.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowShader.cpp">
+      <Filter>Source Files\Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files\Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundClass.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="blackTextureShader.cpp">
+      <Filter>Source Files\Shadows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bloomShader.h">
+      <Filter>Header Files\bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="horizontalBlurShader.h">
+      <Filter>Header Files\bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="brightnessShader.h">
+      <Filter>Header Files\bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="verticalBlurShader.h">
+      <Filter>Header Files\bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="textureShader.h">
+      <Filter>Header Files\bloom</Filter>
+    </ClInclude>
+    <ClInclude Include="MoonShader.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="OceanwaveShader.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="BeachShader.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files\Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowShader.h">
+      <Filter>Header Files\Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundClass.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="blackTextureShader.h">
+      <Filter>Header Files\Shadows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="bloom_ps.hlsl">
+      <Filter>Resource Files\bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="horizontal_blur_ps.hlsl">
+      <Filter>Resource Files\bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="base_vs.hlsl">
+      <Filter>Resource Files\bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="threshold_brightness_ps.hlsl">
+      <Filter>Resource Files\bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="vertical_blur_ps.hlsl">
+      <Filter>Resource Files\bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="base_ps.hlsl">
+      <Filter>Resource Files\bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="moon_ps.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="moon_vs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="oceanwave_ps.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="oceanwave_vs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="beach_ps.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="beach_vs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_vs.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_ps.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="shadow_ps.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="shadow_vs.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_vs.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_ps.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="blacktexture_ps.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="blacktexture_vs.hlsl">
+      <Filter>Resource Files\Shadows</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
